@@ -1,0 +1,12 @@
+schema_version: 1
+name: direct_smoke
+kind: benchmark
+description: Example direct-mode benchmark running without an HTTP server.
+execution_mode: direct
+lifecycle: none
+platforms: [nvidia, rocm]
+entrypoint: tools.byog.executor.benchmarks.direct_smoke:DirectSmokeBenchmark
+protocol_version: "1.0"
+defaults:
+  iterations: 2
+allowed_params: [cases]
