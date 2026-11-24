@@ -1,0 +1,3 @@
+# Runtime dependencies for the BYOG harness (tools/byog/).
+pydantic==2.14.4
+PyYAML==6.0.3
